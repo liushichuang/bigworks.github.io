@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a {
+            text-decoration: none;
+        }
+
+        /* 顶部,底部设置 */
+        .header {
+            font-size: 30px;
+            background-color: #95a0ae;
+            text-align: center;
+            line-height: 60px;
+            border-bottom: 3px solid rgb(225, 172, 26);
+        }
+
+        .footer {
+            background-color: #3433338c;
+            color: #333;
+            line-height: 60px;
+        }
+
+        .footer .foo1 {
+            float: left;
+            margin-left: 100px;
+        }
+
+        .footer .foo2 {
+            float: right;
+            margin-right: 100px;
+        }
+
+        .two {
+            width: 1500px;
+            height: 700px;
+            background-image: url(img.bjj1.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            font-size: 20px;
+            /* 保持背景图不动 */
+            background-attachment: fixed;
+        }
+
+        .two .left {
+            float: left;
+            margin: 20px 20px;
+            width: 150px;
+            height: 650px;
+            background-color: #aaa6a6;
+
+        }
+
+        .two .left div {
+            border: 1px solid rgb(55, 55, 53);
+            text-align: center;
+            line-height: 100px;
+            height: 100px;
+            background-color: #aaa7a7;
+
+        }
+
+        .two .left div:hover {
+            background-color: #e4800e;
+        }
+
+        .two .main {
+            float: left;
+            width: 1200px;
+            height: 600px;
+            background-image: url(img.oi8.png);
+            margin-top: 20px;
+            margin-left: 50px;
+        }
+
+        .main div {
+            margin-top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        欢迎来到我的阅读书籍页面(oi)
+    </div>
+    <div class="two">
+        <div class="left">
+            <div>网文</div>
+            <div>实体</div>
+            <div><a href="GuoNei.html" target="_blank">国内阅读</a></div>
+            <div><a href="GuoWai.html" target="_blank">国外阅读</a></div>
+        </div>
+        <div class="main">
+            <div class="main1">在线：
+                <a href="https://www.x810book.com/book/18790/" target="_blink">武动乾坤</a>
+                <a href="https://www.hetushu.com/book/136/index.html" target="_blink">大主宰</a>
+                <a href="https://www.bilibili.com/video/BV15R4y1d7q3/?spm_id_from=333.788.recommend_more_video.0&vd_source=d1d8d594d7acddc84ba780ef8f8529cc"
+                    target="_blink">天空的城</a>
+                <a
+                    href="https://cn.bing.com/search?q=%E4%B8%96%E7%95%8C%E4%B8%8A%E6%9C%80%E7%88%B1%E6%88%91%E7%9A%84%E4%BA%BA%E6%98%AF%E8%B0%81%E8%87%AA%E5%B7%B1%E5%90%97&qs=n&form=QBRE&sp=-1&lq=0&pq=%E4%B8%96%E7%95%8C%E4%B8%8A%E6%9C%80%E7%88%B1%E6%88%91%E7%9A%84%E4%BA%BA%E6%98%AF%E8%B0%81%E8%87%AA%E5%B7%B1%E5%90%97&sc=0-13&sk=&cvid=999E9E9C9A1A41AB85A3F2C1DEE5816D&ghsh=0&ghacc=0&ghpl=">世界上最爱我的人</a>
+            </div>
+
+            <div>
+                其它：
+                <a href="https://developer.mozilla.org/zh-CN/docs/learn/Front-end_web_developer"
+                    target="_blink">web前端开发</a>
+            </div>
+        </div>
+        <div class="right"></div>
+    </div>
+    <div class="footer">
+        <div class="foo1">获取更多内容,请点击其它国内外阅读</div>
+        <div class="foo2">如有疑问请联：1877183118@qq.com</div>
+    </div>
+</body>
+
+</html>
